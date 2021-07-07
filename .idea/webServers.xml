@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="eee69858-3946-4b59-b3a3-5cc10711ef76" name="preprod">
+        <fileTransfer rootFolder="/home/ubuntu/Antonin-api-platform" accessType="SFTP" host="141.94.104.202" port="22" sshConfigId="687e1f64-35da-465a-b7e2-e72048bad295" sshConfig="ubuntu@141.94.104.202:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
