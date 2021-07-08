@@ -20,17 +20,17 @@ class Book
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @ORM\Column(type="string", length=255)
      */
     private $name;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @ORM\Column(type="string", length=255)
      */
     private $author;
 
     /**
-     * @ORM\Column(type="date", nullable=true)
+     * @ORM\Column(type="date")
      */
     private $datePublished;
 
@@ -44,7 +44,7 @@ class Book
         return $this->name;
     }
 
-    public function setName(?string $name): self
+    public function setName(string $name): self
     {
         $this->name = $name;
 
@@ -56,7 +56,7 @@ class Book
         return $this->author;
     }
 
-    public function setAuthor(?string $author): self
+    public function setAuthor(string $author): self
     {
         $this->author = $author;
 
@@ -68,7 +68,7 @@ class Book
         return $this->datePublished;
     }
 
-    public function setDatePublished(?\DateTimeInterface $datePublished): self
+    public function setDatePublished(\DateTimeInterface $datePublished): self
     {
         $this->datePublished = $datePublished;
 
