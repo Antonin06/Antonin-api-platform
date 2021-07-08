@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig host="141.94.104.202" id="687e1f64-35da-465a-b7e2-e72048bad295" keyPath="C:\Users\Anto\Downloads\mes clés ssh\clé Antonin" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
-    </configs>
-  </component>
-</project>
