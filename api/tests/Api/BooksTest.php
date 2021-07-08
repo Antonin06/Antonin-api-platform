@@ -8,7 +8,7 @@ class BooksTest extends ApiTestCase
     public function testGetCollection(): void
     {
         // The client implements Symfony HttpClient's `HttpClientInterface`, and the response `ResponseInterface`
-        $response = static::createClient()->request('GET', 'https://cda2-devops-gael.simplon-roanne.com/books');
+        $response = static::createClient()->request('GET', 'https://cda2-devops-antonin.simplon-roanne.com/books');
 
         $this->assertResponseIsSuccessful();
         // Asserts that the returned content type is JSON-LD (the default)
@@ -38,7 +38,7 @@ class BooksTest extends ApiTestCase
 
     public function testCreateBook(): void
     {
-        $response = static::createClient()->request('POST', 'https://cda2-devops-gael.simplon-roanne.com/books', ['json' => [
+        $response = static::createClient()->request('POST', 'https://cda2-devops-antonin.simplon-roanne.com/books', ['json' => [
             'name' => 'The Handmaid\'s Tale',
             'author' => 'Margaret Atwood',
             'datePublished' => '1985-07-31T00:00:00+00:00',
