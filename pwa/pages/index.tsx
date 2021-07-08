@@ -4,7 +4,7 @@ import Link from "next/link";
 const Welcome = () => (
   <>
     <Head>
-      <title>Welcome to API Platform! Anto</title>
+      <title>Welcome to API Platform!</title>
     </Head>
 
     <div className="welcome">
