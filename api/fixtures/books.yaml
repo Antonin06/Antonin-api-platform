@@ -2,4 +2,8 @@ App\Entity\Book:
     book_{1..100}:
         name: <sentence(4)>
         author: <name()>
+<<<<<<< HEAD
         datePublished: <dateTime()>
+=======
+        datePublished: <dateTime()>
+>>>>>>> 99bd18fcb8674b8c5bc7af296ea9d07cb3627302

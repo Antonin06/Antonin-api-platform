@@ -18,7 +18,11 @@ const Page: NextComponentType<NextPageContext, Props, Props> = ({
         <title>Book List</title>
       </Head>
     </div>
+<<<<<<< HEAD
     <List books={collection["hydra:member"]} />
+=======
+    <List books={collection ? collection["hydra:member"] : []} />
+>>>>>>> 99bd18fcb8674b8c5bc7af296ea9d07cb3627302
   </div>
 );
 
